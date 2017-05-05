@@ -20,7 +20,7 @@
 
 <body>
 
-	<header style="background-image:url('assets/images/hero-image.jpg');">
+	<header style="background-image:url('assets/images/temp/hero-image.jpg');">
 		<div id="hero-logo">
 			<img src="assets/images/vcb-logo.svg" alt="Victor Burnett Design">
 		</div>
@@ -102,13 +102,70 @@
 			<ul>
 				<li>
 					<div class="slider-thumb">
-
+						<img src="assets/images/temp/slider-image-1.png" alt="Slider Image">
 					</div>
 					<div class="slider-content">
-
+						<div class="slider-client-logo">
+							<img src="assets/images/temp/slider-client-logo.svg" alt="Client">
+						</div>
+						<h3>Leberkas Porchetta Hamburger</h3>
+						<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+						<p class="slider-txt-role">In the role of</p>
+						<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+						<a href="javascript:void(0);">View the project</a>
 					</div>
 				</li>
 			</ul>
+			<div id="slider-pagination">
+				<a href="javascript:void(0);"></a>
+				<a href="javascript:void(0);"></a>
+				<a href="javascript:void(0);"></a>
+				<a href="javascript:void(0);"></a>
+			</div>
+		</div>
+		<div class="portfolio-button">
+			<a href="javascript:void(0);" target="_self">View all projects</a>
+		</div>
+		<div class="portfolio-clients">
+			<div class="portfolio-clients-intro">
+				<p>Landjaeger shoulder fatback brisket sirloin capicola ribeye. Ground round pancetta pork loin prosciutto bresaola short loin picanha t-bone short ribs turkey sausage pork chop chicken kevin capicola.</p>
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
+			<div class="portfolio-clients-thumb">
+				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			</div>
 		</div>
 	</section>
 
