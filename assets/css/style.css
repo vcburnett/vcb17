@@ -46,6 +46,7 @@ table {
 img {
 	width: 100%;
 	height: auto;
+	display: block;
 }
 * {
 	box-sizing: border-box;
@@ -53,14 +54,84 @@ img {
 /* end/ RESET */
 
 /* Fonts */
-
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,400i,700,700i');
 /* end/ Fonts */
 
 html, body {
 	width: 100%;
 	height: 100%;
 	background-color: #f4f4f4;
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #333;
 }
+
+a {
+	color: gold;
+	-webkit-transition: background-color .3s, color .3s;
+	transition: background-color .3s, color .3s;
+}
+	a:hover {
+		color: red;
+	}
+
+.vcb-logo-part-1 {
+	fill: #ebebeb;
+}
+.vcb-logo-part-2 {
+	fill: #aaa;
+}
+.vcb-logo-part-3 {
+	fill: #fff;
+}
+
+/* Menu */
+nav {
+	width: 100%;
+	display: table;
+	position: fixed;
+	z-index: 50;
+	background-color: rgba(255,255,255,.2);
+}
+	#nav-logo {
+		width: 20%;
+		max-width: 70px;
+		padding: 8px;
+		float: left;
+	}
+	#nav-links {
+		padding-top: 2.1em;
+		float: right;
+	}
+		#nav-links ul {
+
+		}
+			#nav-links ul li {
+				display: inline-block;
+			}
+		#nav-links a {
+			color: #777;
+			text-transform: uppercase;
+			padding: .3em 1em;
+		}
+			#nav-links a:hover {
+				color: red;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
