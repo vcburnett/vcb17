@@ -67,6 +67,10 @@ html, body {
 	color: #333;
 }
 
+p {
+	margin-bottom: .5em;
+}
+
 a {
 	color: gold;
 	-webkit-transition: background-color .3s, color .3s;
@@ -119,12 +123,115 @@ nav {
 				color: red;
 			}
 
+/* Section : things I do */
+#things-i-do {
+	width: 94%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 4em;
+}
+	.section-intro {
+		width: 75%;
+		margin: 0 auto;
+		background-color: #ddd;
+		padding: 6% 0 6% 16%;
+		background: url("assets/images/title-things-i-do.png") no-repeat 5% center;
+	}
+	.main-services {
+		width: 100%;
+		margin-bottom: 4em;
+	}
+		.a-service {
+			display: inline-block;
+			width: 24%;
+			padding: 0 2%;
+			text-align: center;
+		}
+			.a-service-thumb {
+				width: 50%;
+				margin: 0 auto 1em;
+			}
+	.secondary-services {
+		width: 94%;
+		max-width: 640px;
+		margin: 0 auto;
+	}
+		.sec-service {
+			display: inline-block;
+			width: 24%;
+			padding: 0 2%;
+			text-align: center;
+		}
+			.sec-service-thumb {
+				width: 50%;
+				margin: 0 auto 1em;
+			}
 
+#portfolio {
+	width: 94%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 4em;
+}
+	.portfolio-button {
+		width: 100%;
+		text-align: center;
+	}
+		.portfolio-button a {
+			background-color: teal;
+			color: #fff;
+			display: inline-block;
+		}
+	.portfolio-clients {
+		width: 94%;
+		max-width: 880px;
+		margin: 3em auto 0;
+		text-align: center;
+	}
+		.portfolio-clients-intro {
+			width: 75%;
+			margin: 0 auto 2em;
+		}
+		.portfolio-logos {
+			width: 100%;
+		}
+			.portfolio-clients-thumb {
+				width: 18%;
+				margin: .5%;
+				border: 1px solid #ddd;
+				padding: 12px;
+				display: inline-block;
+			}
 
+/* Portfolio Slider */
 
+/* end/ Portfolio Slider */
 
+#about-me {
+	width: 94%;
+	max-width: 620px;
+	margin: 0 auto;
+}
+	.aout-intro {
 
-
+	}
+	.about-content {
+		display: table;
+		width: 100%;
+	}
+		.about-personal {
+			width: 50%;
+			text-align: right;
+			float: left;
+			clear: left;
+			padding-right: 5%;
+		}
+		.about-work {
+			width: 50%;
+			float: right;
+			clear: right;
+			padding-left: 5%;
+		}
 
 
 

@@ -12,7 +12,7 @@
 	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
 
 	<!-- stylesheets -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- stylesheets -->
 
 	<!-- scripts -->
@@ -149,41 +149,37 @@
 			<div class="portfolio-clients-intro">
 				<p>Landjaeger shoulder fatback brisket sirloin capicola ribeye. Ground round pancetta pork loin prosciutto bresaola short loin picanha t-bone short ribs turkey sausage pork chop chicken kevin capicola.</p>
 			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
-			</div>
-			<div class="portfolio-clients-thumb">
-				<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			<div class="portfolio-logos">
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
 			</div>
 		</div>
 	</section>
