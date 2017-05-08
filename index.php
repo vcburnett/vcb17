@@ -45,12 +45,13 @@
 			<div class="hero-content">
 				<h1>Tenderloin</h1>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
-				<a href="javascript:void(0);" target="_self">Venison pork chop</a>
-				<a href="javascript:void(0);" target="_self">Chuck pig sausage</a>
+				<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
+				<br>
+				<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
 			</div>
-			<div class="hero-bottom-cover">
-				<img src="assets/images/waves.svg">
-			</div>
+		</div>
+		<div class="hero-bottom-cover">
+			<img src="assets/images/waves.svg">
 		</div>
 	</header>
 
@@ -113,29 +114,110 @@
 				</div>
 				<h2>Salami swine</h2>
 			</div>
+			<div class="sec-service">
+				<div class="sec-service-thumb">
+					<img src="assets/images/thumb.svg" alt="Thumb">
+				</div>
+				<h2>Salami swine</h2>
+			</div>
+			<div class="sec-service">
+				<div class="sec-service-thumb">
+					<img src="assets/images/thumb.svg" alt="Thumb">
+				</div>
+				<h2>Salami swine</h2>
+			</div>
+			<div class="sec-service">
+				<div class="sec-service-thumb">
+					<img src="assets/images/thumb.svg" alt="Thumb">
+				</div>
+				<h2>Salami swine</h2>
+			</div>
 		</div>
 	</section>
 
 	<section id="portfolio">
 		<div id="portfolio-slider">
-			<ul>
-				<li>
-					<div class="slider-thumb">
-						<img src="assets/images/temp/slider-image-1.png" alt="Slider Image">
-					</div>
-					<div class="slider-content">
-						<div class="slider-client-logo">
-							<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+			<div id="slider-wrap">
+				<ul>
+					<li>
+						<div class="slider-thumb">
+							<img src="assets/images/temp/slider-image-1.png" alt="Slider Image">
 						</div>
-						<h3>Leberkas Porchetta Hamburger</h3>
-						<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
-						<p class="slider-txt-role">In the role of</p>
-						<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-						<a href="javascript:void(0);">View the project</a>
-					</div>
-				</li>
-			</ul>
+						<div class="slider-content">
+							<div class="slider-client-logo">
+								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+							</div>
+							<h3>Leberkas Porchetta Hamburger</h3>
+							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+							<p class="slider-txt-role">In the role of</p>
+							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+							<a href="javascript:void(0);">View the project</a>
+						</div>
+					</li>
+					<li>
+						<div class="slider-thumb">
+							<img src="assets/images/temp/slider-image-2.png" alt="Slider Image">
+						</div>
+						<div class="slider-content">
+							<div class="slider-client-logo">
+								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+							</div>
+							<h3>Leberkas Porchetta Hamburger</h3>
+							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+							<p class="slider-txt-role">In the role of</p>
+							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+							<a href="javascript:void(0);">View the project</a>
+						</div>
+					</li>
+					<li>
+						<div class="slider-thumb">
+							<img src="assets/images/temp/slider-image-3.png" alt="Slider Image">
+						</div>
+						<div class="slider-content">
+							<div class="slider-client-logo">
+								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+							</div>
+							<h3>Leberkas Porchetta Hamburger</h3>
+							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+							<p class="slider-txt-role">In the role of</p>
+							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+							<a href="javascript:void(0);">View the project</a>
+						</div>
+					</li>
+					<li>
+						<div class="slider-thumb">
+							<img src="assets/images/temp/slider-image-4.png" alt="Slider Image">
+						</div>
+						<div class="slider-content">
+							<div class="slider-client-logo">
+								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+							</div>
+							<h3>Leberkas Porchetta Hamburger</h3>
+							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+							<p class="slider-txt-role">In the role of</p>
+							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+							<a href="javascript:void(0);">View the project</a>
+						</div>
+					</li>
+					<li>
+						<div class="slider-thumb">
+							<img src="assets/images/temp/slider-image-5.png" alt="Slider Image">
+						</div>
+						<div class="slider-content">
+							<div class="slider-client-logo">
+								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+							</div>
+							<h3>Leberkas Porchetta Hamburger</h3>
+							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+							<p class="slider-txt-role">In the role of</p>
+							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
+							<a href="javascript:void(0);">View the project</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 			<div id="slider-pagination">
+				<a href="javascript:void(0);" class="pag-selected"></a>
 				<a href="javascript:void(0);"></a>
 				<a href="javascript:void(0);"></a>
 				<a href="javascript:void(0);"></a>
@@ -143,13 +225,19 @@
 			</div>
 		</div>
 		<div class="portfolio-button">
-			<a href="javascript:void(0);" target="_self">View all projects</a>
+			<a href="javascript:void(0);" class="cta-blue">View all projects</a>
 		</div>
 		<div class="portfolio-clients">
 			<div class="portfolio-clients-intro">
 				<p>Landjaeger shoulder fatback brisket sirloin capicola ribeye. Ground round pancetta pork loin prosciutto bresaola short loin picanha t-bone short ribs turkey sausage pork chop chicken kevin capicola.</p>
 			</div>
 			<div class="portfolio-logos">
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
+				<div class="portfolio-clients-thumb">
+					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
+				</div>
 				<div class="portfolio-clients-thumb">
 					<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 				</div>
@@ -187,13 +275,20 @@
 	<section id="about-me">
 		<div class="about-intro">
 			<div class="about-logo">
-				<img src="assets/images/vcb-logo.svg" alt="Victor Burnett Design">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+		 			<g>
+						<polygon class="vcb-logo-part-1" points="165,275.3 75.4,185.7 40,221 147.3,328.3 174,328.3 140,294.3"/>
+						<polygon class="vcb-logo-part-2" points="290,221 254.6,185.7 165,275.3 140,294.3 174,328.3 182.7,328.3"/>
+						<path class="vcb-logo-part-3" d="M182.7,294.3H140V1.7l50,49.9V119l33.7-33.7l66.3,66.3V187L182.7,294.3zM190,122.4v93.9l47-47L190,122.4z"/>
+					</g>
+				</svg>
 			</div>
-			<div class="about-thumb-wrap">
-				<div class="about-thumb-content">
-					<h2>Short Ribs Bacon</h2>
-					<p>Tenderloin meatball shoulder</p>
-				</div>
+			<div class="about-thumb-content">
+				<h2>Short Ribs Bacon</h2>
+				<p>Tenderloin meatball shoulder</p>
+			</div>
+			<div class="about-image-wrap">
+				<div class="about-image" style="background-image: url('assets/images/temp/about-image.jpg');"></div>
 			</div>
 		</div>
 		<div class="about-content">
@@ -201,13 +296,13 @@
 				<h3>Corned beef shoulder</h3>
 				<p>Brisket bresaola burgdoggen jowl beef alcatra pork chop spare ribs t-bone meatball corned beef. Ham ground round doner sirloin jerky chuck. Drumstick pork cupim, jowl kielbasa pancetta short ribs alcatra. Ground round tail chicken hamburger tri-tip pork ham shank turducken fatback.</p>
 				<p>Bacon ipsum dolor amet shoulder ribeye tongue, short ribs landjaeger pancetta pork andouille doner frankfurter drumstick meatloaf. Ham hamburger picanha, kevin tenderloin pork belly bacon pig beef cow.</p>
-				<a href="javasctip:void(0);" target="_self">View my blog</a>
+				<a href="javasctip:void(0);" class="cta-blue">View my blog</a>
 			</div>
 			<div class="about-work">
 				<h3>Drumstick</h3>
 				<p>Bacon ipsum dolor amet shoulder ribeye tongue, short ribs landjaeger pancetta pork andouille doner frankfurter drumstick meatloaf. Ham hamburger picanha, kevin tenderloin pork belly bacon pig beef cow.</p>
 				<p>Brisket bresaola burgdoggen jowl beef alcatra pork chop spare ribs t-bone meatball corned beef. Ham ground round doner sirloin jerky chuck. Drumstick pork cupim, jowl kielbasa pancetta short ribs alcatra. Ground round tail chicken hamburger tri-tip pork ham shank turducken fatback.</p>
-				<a href="javasctip:void(0);" target="_self">Download CV</a>
+				<a href="javasctip:void(0);" class="cta-blue">Download CV</a>
 			</div>
 		</div>
 	</section>
@@ -236,7 +331,13 @@
 			<p>&copy; 2005-2017 Victor Burnett. All rights reserved.</p>
 		</div>
 		<div class="ft-logo">
-			<img src="assets/images/vcb-logo.svg" alt="Victor Burnett Design">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+	 			<g>
+					<polygon class="vcb-logo-part-1" points="165,275.3 75.4,185.7 40,221 147.3,328.3 174,328.3 140,294.3"/>
+					<polygon class="vcb-logo-part-2" points="290,221 254.6,185.7 165,275.3 140,294.3 174,328.3 182.7,328.3"/>
+					<path class="vcb-logo-part-3" d="M182.7,294.3H140V1.7l50,49.9V119l33.7-33.7l66.3,66.3V187L182.7,294.3zM190,122.4v93.9l47-47L190,122.4z"/>
+				</g>
+			</svg>
 		</div>
 	</footer>
 

@@ -80,6 +80,30 @@ a {
 		color: red;
 	}
 
+h1, h2, h3 {
+	font-family: "Bitter", serif;
+	line-height: 1.25em;
+	color: #485971;
+}
+
+.cta-red, .cta-blue {
+	font-family: "Bitter", serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	display: inline-block;
+	line-height: 1.15em;
+	color: #fff;
+	background-color: #cf5d5d;
+	padding: .75em 2em;
+	margin-bottom: .25em;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(58,23,23,.24);
+}
+.cta-blue {
+	background-color: #34708b;
+	text-shadow: 0 1px 2px rgba(25,52,64,.24);
+}
+
 .vcb-logo-part-1 {
 	fill: #ebebeb;
 }
@@ -123,6 +147,20 @@ nav {
 				color: red;
 			}
 
+/* Home Hero */
+header {
+	height: 80vh;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+}
+	.hero-bottom-cover {
+		width: 100%;
+		display: block;
+		position: absolute;
+		bottom: -1px;
+	}
+
 /* Section : things I do */
 #things-i-do {
 	width: 94%;
@@ -155,30 +193,38 @@ nav {
 		width: 94%;
 		max-width: 640px;
 		margin: 0 auto;
+		text-align: center;
 	}
 		.sec-service {
 			display: inline-block;
 			width: 24%;
 			padding: 0 2%;
-			text-align: center;
+			margin-bottom: 1.5em;
 		}
 			.sec-service-thumb {
 				width: 50%;
 				margin: 0 auto 1em;
 			}
+	.a-service h2 {
+		font-size: 1.25em;
+		margin-bottom: .25em;
+	}
+	.sec-service h2 {
+		font-size: 1.1em;
+	}
 
 #portfolio {
 	width: 94%;
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 4em auto 0;
 	padding-top: 4em;
 }
 	.portfolio-button {
 		width: 100%;
 		text-align: center;
+		margin-top: 2.5em;
 	}
 		.portfolio-button a {
-			background-color: teal;
 			color: #fff;
 			display: inline-block;
 		}
@@ -193,28 +239,152 @@ nav {
 			margin: 0 auto 2em;
 		}
 		.portfolio-logos {
-			width: 100%;
+			width: 90%;
+			max-width: 800px;
+			margin: 0 auto;
 		}
 			.portfolio-clients-thumb {
-				width: 18%;
+				width: 14%;
 				margin: .5%;
 				border: 1px solid #ddd;
 				padding: 12px;
 				display: inline-block;
 			}
+				.portfolio-clients-thumb img {
+					opacity: .5;
+					-webkit-transition: .3s;
+					transition: .3s;
+				}
+					.portfolio-clients-thumb:hover img {
+						opacity: 1;
+					}
 
 /* Portfolio Slider */
+#portfolio-slider {
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+	background: url("assets/images/title-portfolio.png") no-repeat 5% center;
+}
+	#slider-wrap {
+		width: 96%;
+		max-width: 740px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+		#slider-wrap ul {
+			width: 500%;
+		}
+			#slider-wrap ul li {
+				display: table;
+				width: 20%;
+				float: left;
+			}
+				#slider-wrap ul li .slider-thumb {
+					width: 60%;
+					float: left;
+					clear: left;
+				}
+				#slider-wrap ul li .slider-content {
+					width: 40%;
+					float: right;
+					clear: right;
+				}
+	#slider-pagination {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+		#slider-pagination a {
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			cursor: pointer;
+			background-color: #e7ebee;
+			margin: 2em .1em 0;
+			border-radius: 50%;
+		}
+			#slider-pagination a:hover {
+				background-color: #bdc4d3;
+			}
+			#slider-pagination a.pag-selected {
+				cursor: default;
+				background-color: #8891a5;
+			}
 
 /* end/ Portfolio Slider */
 
 #about-me {
 	width: 94%;
 	max-width: 620px;
-	margin: 0 auto;
+	margin: 11em auto 0;
 }
-	.aout-intro {
-
+	.about-intro {
+		display: block;
+		margin: 0 auto 6em;
+		position: relative;
 	}
+		.about-logo {
+			width: 56px;
+			height: 56px;
+			padding: 10px;
+			border-radius: 50%;
+			background-color: #f4f4f4;
+			border: 1px solid #fff;
+			box-shadow: 0 4px 3px rgba(0,0,0,0.14);
+			position: absolute;
+			top: -68px;
+			left: calc( 50% - 28px );
+			z-index: 10;
+		}
+			.about-logo .vcb-logo-part-1 {
+				fill: #4d596f;
+			}
+			.about-logo .vcb-logo-part-2 {
+				fill: #373c45;
+			}
+			.about-logo .vcb-logo-part-3 {
+				fill: #79859c;
+			}
+		.about-thumb-content {
+			font-size: 1.25em;
+			line-height: 1.15em;
+			width: 100%;
+			display: block;
+			position: absolute;
+			text-align: center;
+			z-index: 20;
+			padding-top: 215px;
+		}
+			.about-thumb-content h2 {
+				font-size: 2em;
+				line-height: 1.25em;
+				text-transform: uppercase;
+			}
+		.about-image-wrap {
+			width: 250px;
+			height: 250px;
+			display: block;
+			-ms-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			overflow: hidden;
+			margin: 70px auto;
+			background-color: #fff;
+		}
+			.about-image {
+				width: 150%;
+				height: 150%;
+				display: block;
+				background-size: cover;
+				background-position: center center;
+				-ms-transform: rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				position: relative;
+				left: -25%;
+				top: -25%;
+			}
 	.about-content {
 		display: table;
 		width: 100%;
@@ -232,6 +402,11 @@ nav {
 			clear: right;
 			padding-left: 5%;
 		}
+			.about-content h3 {
+				font-size: 1.25em;
+				line-height: 1.15em;
+				margin-bottom: .4em;
+			}
 
 
 
