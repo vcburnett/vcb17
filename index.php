@@ -147,11 +147,11 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>Leberkas Porchetta Hamburger</h3>
+							<h3>I love you</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);">View the project</a>
+							<a href="javascript:void(0);" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -166,7 +166,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);">View the project</a>
+							<a href="javascript:void(0);" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -181,7 +181,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);">View the project</a>
+							<a href="javascript:void(0);" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -196,7 +196,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);">View the project</a>
+							<a href="javascript:void(0);" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -211,7 +211,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);">View the project</a>
+							<a href="javascript:void(0);" class="cta-blue">View the project</a>
 						</div>
 					</li>
 				</ul>
@@ -225,7 +225,7 @@
 			</div>
 		</div>
 		<div class="portfolio-button">
-			<a href="javascript:void(0);" class="cta-blue">View all projects</a>
+			<a href="javascript:void(0);" class="cta-red">View all projects</a>
 		</div>
 		<div class="portfolio-clients">
 			<div class="portfolio-clients-intro">
