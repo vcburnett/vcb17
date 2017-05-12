@@ -96,7 +96,7 @@ h1, h2, h3 {
 	color: #fff;
 	/*background-color: #d49e2b;*/
 	background-color: #bf5252;
-	padding: .75em 2em;
+	padding: .75em 2em .55em;
 	margin-bottom: .25em;
 	text-transform: uppercase;
 	text-shadow: 0 1px 2px rgba(58,23,23,.24);
@@ -172,6 +172,7 @@ nav {
 	display: table;
 	position: fixed;
 	z-index: 50;
+	display: none;
 }
 	#nav-logo {
 		width: 20%;
@@ -265,6 +266,7 @@ header {
 			width: 24%;
 			padding: 0 2%;
 			margin-bottom: 1.5em;
+			vertical-align: top;
 		}
 			.sec-service-thumb {
 				width: 50%;
@@ -279,7 +281,7 @@ header {
 	}
 
 #portfolio {
-	width: 94%;
+	width: 96%;
 	max-width: 960px;
 	margin: 4em auto 0;
 	padding-top: 4em;
@@ -326,19 +328,20 @@ header {
 
 /* Portfolio Slider */
 #portfolio-slider {
-	width: 96%;
+	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
 	background: url("assets/images/title-portfolio.png") no-repeat 5% center;
 }
 	#slider-wrap {
-		width: 96%;
+		width: 100%;
 		max-width: 740px;
 		margin: 0 auto;
 		overflow: hidden;
 	}
 		#slider-wrap ul {
 			width: 500%;
+			display: table;
 		}
 			#slider-wrap ul li {
 				display: table;
@@ -725,19 +728,97 @@ footer {
 		.section-intro {
 			padding: 6% 0 6% 18%;
 		}
-			#contact .section-intro {
-				padding: 8% 3% 7% 22%;
+			.a-service {
+				width: 49%;
+				margin-bottom: 2.5em;
 			}
+				.a-service-thumb {
+					max-width: 100px;
+				}
+}
+
+@media screen and (max-width:680px) {
+	.section-intro {
+		width: 96%;
+	}
+
+	#portfolio-slider {
+		margin: 0 auto;
+		background-position: 5% top;
+	}
+		#slider-wrap ul li .slider-thumb, #slider-wrap ul li .slider-content {
+			width: 100%;
+			float: none;
+			clear: none;
+			padding: 0 2em;
+			text-align: center;
+		}
+		#slider-wrap ul li .slider-content {
+			margin-top: 1em;
+		}
+			#slider-wrap ul li .slider-content .slider-client-logo {
+				width: 40%;
+				max-width: 120px;
+				margin: 0 auto;
+			}
+			#slider-wrap ul li .slider-content h3 + p {
+				display: none;
+			}
+	#slider-pagination a {
+		margin: 0 .1em;
+	}
+
+	.portfolio-clients {
+	}
+		.portfolio-clients-intro {
+
+		}
+		.portfolio-logos {
+			width: 100%;
+		}
+			.portfolio-clients-thumb {
+				width: 14%;
+				margin: .5%;
+				border: 1px solid #ddd;
+				padding: 12px;
+				display: inline-block;
+			}
+				.portfolio-clients-thumb img {
+					opacity: .5;
+					-webkit-transition: .3s;
+					transition: .3s;
+				}
+					.portfolio-clients-thumb:hover img {
+						opacity: 1;
+					}
+
+
+}
+
+@media screen and (max-width:540px) {
+	.about-personal, .about-work {
+		width: 100%;
+		text-align: left;
+		float: none;
+		clear: none;
+		padding: 0;
+		margin-bottom: 2em;
+	}
+	
+}
+
+@media screen and (max-width:460px) {
+	#things-i-do {
+	}
 		.main-services {
 			width: 100%;
 			margin-bottom: 4em;
 			text-align: center;
 		}
 			.a-service {
-				display: inline-block;
-				width: 24%;
+				display: block;
+				width: 100%;
 				padding: 0 2%;
-				text-align: center;
 			}
 				.a-service-thumb {
 					width: 50%;
@@ -750,22 +831,12 @@ footer {
 			text-align: center;
 		}
 			.sec-service {
-				display: inline-block;
-				width: 24%;
-				padding: 0 2%;
-				margin-bottom: 1.5em;
+				width: 32%;
 			}
 				.sec-service-thumb {
 					width: 50%;
 					margin: 0 auto 1em;
 				}
-		.a-service h2 {
-			font-size: 1.25em;
-			margin-bottom: .25em;
-		}
-		.sec-service h2 {
-			font-size: 1.1em;
-		}
 }
 
 
