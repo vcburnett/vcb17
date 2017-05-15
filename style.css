@@ -172,7 +172,8 @@ nav {
 	display: table;
 	position: fixed;
 	z-index: 50;
-	display: none;
+	-webkit-transition: .3s;
+	transition: .3s;
 }
 	#nav-logo {
 		width: 20%;
@@ -182,16 +183,24 @@ nav {
 	}
 		#nav-logo a:hover .vcb-logo-part-1 {
 			fill: #4d596f;
+			-webkit-transition: .3s;
+			transition: .3s;
 		}
 		#nav-logo a:hover .vcb-logo-part-2 {
 			fill: #373c45;
+			-webkit-transition: .3s;
+			transition: .3s;
 		}
 		#nav-logo a:hover .vcb-logo-part-3 {
 			fill: #79859c;
+			-webkit-transition: .3s;
+			transition: .3s;
 		}
 	#nav-links {
 		padding-top: 2.1em;
 		float: right;
+		-webkit-transition: .3s;
+		transition: .3s;
 	}
 		#nav-links ul {
 
@@ -208,17 +217,67 @@ nav {
 				color: red;
 			}
 
+	/* nav scrolled */
+	nav.scrolled {
+		background-color: rgba(255,255,255,.94);
+		box-shadow: 0 2px 4px rgba(0,0,0,.22);
+	}
+		nav.scrolled #nav-logo {
+			max-width: 50px;
+		}
+			nav.scrolled #nav-logo a .vcb-logo-part-1 {
+				fill: #414c61;
+			}
+			nav.scrolled #nav-logo a .vcb-logo-part-2 {
+				fill: #2e323b;
+			}
+			nav.scrolled #nav-logo a .vcb-logo-part-3 {
+				fill: #66728a;
+			}
+		nav.scrolled #nav-links {
+			font-size: .85em;
+			padding-top: 1.5em;
+			float: right;
+		}
+
 /* Home Hero */
 header {
-	height: 80vh;
 	position: relative;
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
+	.hero-content {
+		text-align: center;
+		width: 96%;
+		max-width: 720px;
+		padding: 24vh 0 29vh;
+		margin: 0 auto;
+	}
+		.hero-content h1 {
+			font-size: 5em;
+			line-height: 1.15em;
+			margin-bottom: .05em;
+			text-transform: uppercase;
+		}
+		.hero-text {
+			width: 50%;
+			min-width: 290px;
+			margin: 0 auto;
+		}
+			.hero-text p {
+				margin-bottom: 2.5em;
+			}
+			.hero-text a {
+				display: block;
+				max-width: 270px;
+				margin: .25em auto 0;
+			}
 	.hero-bottom-cover {
-		width: 100%;
+		width: 102%;
 		display: block;
 		position: absolute;
+		left: -1%;
 		bottom: -1px;
 	}
 
@@ -410,12 +469,14 @@ header {
 #about-me {
 	width: 94%;
 	max-width: 620px;
-	margin: 11em auto 0;
+	margin: 8em auto 0;
 }
 	.about-intro {
+		width: 100%;
 		display: block;
-		margin: 0 auto 6em;
+		margin: 0 auto 1.5em;
 		position: relative;
+		overflow: hidden;
 	}
 		.about-logo {
 			width: 56px;
@@ -426,7 +487,7 @@ header {
 			border: 1px solid #fff;
 			box-shadow: 0 4px 3px rgba(0,0,0,0.14);
 			position: absolute;
-			top: -68px;
+			top: 0;
 			left: calc( 50% - 28px );
 			z-index: 10;
 		}
@@ -447,7 +508,7 @@ header {
 			position: absolute;
 			text-align: center;
 			z-index: 20;
-			padding-top: 215px;
+			padding-top: 280px;
 		}
 			.about-thumb-content h2 {
 				font-size: 2em;
@@ -524,6 +585,7 @@ header {
 		#contact form a {
 			font-size: 1em;
 			line-height: 1.1em;
+			padding: 1em 2em;
 		}
 	.form {
 		margin-bottom: 3em;
@@ -543,7 +605,6 @@ header {
 	display: block;
 	margin: 1em 0 2em;
 	width: 100%;
-	width: calc(100% - 2em);
 	vertical-align: top;
 }
 	span.input:nth-child(3) {
@@ -721,7 +782,7 @@ footer {
 /* RESPONSIVE CODE */
 /* ------- */
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
 	#things-i-do {
 
 	}
@@ -737,10 +798,13 @@ footer {
 				}
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
 	.section-intro {
 		width: 96%;
 	}
+		#contact .section-intro {
+			width: 96%;
+		}
 
 	#portfolio-slider {
 		margin: 0 auto;
@@ -765,7 +829,7 @@ footer {
 				display: none;
 			}
 	#slider-pagination a {
-		margin: 0 .1em;
+		margin: 2em .1em 0;
 	}
 
 	.portfolio-clients {
@@ -795,7 +859,12 @@ footer {
 
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width: 540px) {
+	.hero-content h1 {
+		font-size: 3.5em;
+		line-height: 1.15em;
+		margin-bottom: .25em;
+	}
 	.about-personal, .about-work {
 		width: 100%;
 		text-align: left;
@@ -807,7 +876,7 @@ footer {
 	
 }
 
-@media screen and (max-width:460px) {
+@media screen and (max-width: 460px) {
 	#things-i-do {
 	}
 		.main-services {
@@ -837,6 +906,31 @@ footer {
 					width: 50%;
 					margin: 0 auto 1em;
 				}
+}
+
+@media screen and (max-width: 400px) {
+	.about-thumb-content {
+		padding-top: 242px;
+	}
+		.about-thumb-content h2 {
+			font-size: 1.65em;
+		}
+	.about-image-wrap {
+		width: 210px;
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 387px) {
+	.hero-content h1 {
+		font-size: 3em;
+		line-height: 1.15em;
+		margin-bottom: .05em;
+		text-transform: uppercase;
+	}
+	#slider-pagination a {
+		margin: 0 .1em;
+	}
 }
 
 

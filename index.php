@@ -20,7 +20,7 @@
 
 <body>
 
-	<nav>
+	<nav class="">
 		<div id="nav-logo">
 			<a href="javascript:void(0);">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
@@ -46,10 +46,11 @@
 		<div id="hero-wrap">
 			<div class="hero-content">
 				<h1>Tenderloin</h1>
-				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
-				<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
-				<br>
-				<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
+				<div class="hero-text">
+					<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+					<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
+					<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
+				</div>
 			</div>
 		</div>
 		<div class="hero-bottom-cover">
