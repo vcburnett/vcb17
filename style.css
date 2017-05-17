@@ -75,6 +75,7 @@ a {
 	color: gold;
 	-webkit-transition: background-color .3s, color .3s;
 	transition: background-color .3s, color .3s;
+	cursor: pointer;
 }
 	a:hover {
 		color: red;
@@ -170,57 +171,65 @@ h1, h2, h3 {
 nav {
 	width: 100%;
 	display: table;
-	position: fixed;
+	position: absolute;
 	z-index: 50;
 	-webkit-transition: .3s;
 	transition: .3s;
 }
-	#nav-logo {
-		width: 20%;
-		max-width: 70px;
-		padding: 8px;
-		float: left;
+	.nav-wrap {
+		width: 96%;
+		max-width: 1000px;
+		margin: 0 auto;
 	}
-		#nav-logo a:hover .vcb-logo-part-1 {
-			fill: #4d596f;
+		#nav-logo {
+			width: 20%;
+			max-width: 60px;
+			padding: 8px;
+			float: left;
+		}
+			#nav-logo a:hover .vcb-logo-part-1 {
+				fill: #4d596f;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+			#nav-logo a:hover .vcb-logo-part-2 {
+				fill: #373c45;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+			#nav-logo a:hover .vcb-logo-part-3 {
+				fill: #79859c;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+		#nav-links {
+			padding-top: 2.1em;
+			float: right;
 			-webkit-transition: .3s;
 			transition: .3s;
 		}
-		#nav-logo a:hover .vcb-logo-part-2 {
-			fill: #373c45;
-			-webkit-transition: .3s;
-			transition: .3s;
-		}
-		#nav-logo a:hover .vcb-logo-part-3 {
-			fill: #79859c;
-			-webkit-transition: .3s;
-			transition: .3s;
-		}
-	#nav-links {
-		padding-top: 2.1em;
-		float: right;
-		-webkit-transition: .3s;
-		transition: .3s;
-	}
-		#nav-links ul {
+			#nav-links ul {
 
-		}
-			#nav-links ul li {
-				display: inline-block;
 			}
-		#nav-links a {
-			color: #777;
-			text-transform: uppercase;
-			padding: .3em 1em;
-		}
-			#nav-links a:hover {
-				color: red;
+				#nav-links ul li {
+					display: inline-block;
+				}
+			#nav-links a {
+				font-size: .75em;
+				color: #ccc;
+				text-transform: uppercase;
+				padding: .3em 1em;
 			}
+				#nav-links a:hover {
+					color: #fff;
+				}
 
 	/* nav scrolled */
 	nav.scrolled {
 		background-color: rgba(255,255,255,.94);
 		box-shadow: 0 2px 4px rgba(0,0,0,.22);
+		position: fixed;
+		top: 0;
 	}
 		nav.scrolled #nav-logo {
 			max-width: 50px;
@@ -235,8 +244,7 @@ nav {
 				fill: #66728a;
 			}
 		nav.scrolled #nav-links {
-			font-size: .85em;
-			padding-top: 1.5em;
+			padding-top: 1.25em;
 			float: right;
 		}
 
@@ -248,18 +256,28 @@ header {
 	overflow: hidden;
 }
 	.hero-content {
-		text-align: center;
 		width: 96%;
-		max-width: 720px;
+		max-width: 1000px;
 		padding: 24vh 0 29vh;
 		margin: 0 auto;
+		font-size: 1.5em;
+		font-weight: 200;
+		line-height: 1.15em;
+		color: #ccc;
 	}
 		.hero-content h1 {
-			font-size: 5em;
-			line-height: 1.15em;
+			font-size: 3.5em;
+			line-height: .8em;
 			margin-bottom: .05em;
 			text-transform: uppercase;
 		}
+			.hero-content a {
+				font-size: .85em;
+				display: block;
+				max-width: 270px;
+				margin: .25em 0 0;
+				text-align: center;
+			}
 		.hero-text {
 			width: 50%;
 			min-width: 290px;
@@ -268,18 +286,6 @@ header {
 			.hero-text p {
 				margin-bottom: 2.5em;
 			}
-			.hero-text a {
-				display: block;
-				max-width: 270px;
-				margin: .25em auto 0;
-			}
-	.hero-bottom-cover {
-		width: 102%;
-		display: block;
-		position: absolute;
-		left: -1%;
-		bottom: -1px;
-	}
 
 /* Section : things I do */
 #things-i-do {

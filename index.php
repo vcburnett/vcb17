@@ -21,40 +21,37 @@
 <body>
 
 	<nav class="">
-		<div id="nav-logo">
-			<a href="javascript:void(0);">
-				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
-		 			<g>
-						<polygon class="vcb-logo-part-1" points="165,275.3 75.4,185.7 40,221 147.3,328.3 174,328.3 140,294.3"/>
-						<polygon class="vcb-logo-part-2" points="290,221 254.6,185.7 165,275.3 140,294.3 174,328.3 182.7,328.3"/>
-						<path class="vcb-logo-part-3" d="M182.7,294.3H140V1.7l50,49.9V119l33.7-33.7l66.3,66.3V187L182.7,294.3zM190,122.4v93.9l47-47L190,122.4z"/>
-					</g>
-				</svg>
-			</a>
-		</div>
-		<div id="nav-links">
-			<ul>
-				<li><a href="javascript:void(0);">Things I Do</a></li>
-				<li><a href="javascript:void(0);">Portfolio</a></li>
-				<li><a href="javascript:void(0);">About Me</a></li>
-				<li><a href="javascript:void(0);">Say Hello</a></li>
-			</ul>
+		<div class="nav-wrap">
+			<div id="nav-logo">
+				<a href="javascript:void(0);">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+			 			<g>
+							<polygon class="vcb-logo-part-1" points="165,275.3 75.4,185.7 40,221 147.3,328.3 174,328.3 140,294.3"/>
+							<polygon class="vcb-logo-part-2" points="290,221 254.6,185.7 165,275.3 140,294.3 174,328.3 182.7,328.3"/>
+							<path class="vcb-logo-part-3" d="M182.7,294.3H140V1.7l50,49.9V119l33.7-33.7l66.3,66.3V187L182.7,294.3zM190,122.4v93.9l47-47L190,122.4z"/>
+						</g>
+					</svg>
+				</a>
+			</div>
+			<div id="nav-links">
+				<ul>
+					<li><a href="javascript:void(0);">Things I Do</a></li>
+					<li><a href="javascript:void(0);">Portfolio</a></li>
+					<li><a href="javascript:void(0);">About Me</a></li>
+					<li><a href="javascript:void(0);">Say Hello</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
 	<header style="background-image:url('assets/images/temp/hero-image.jpg');">
 		<div id="hero-wrap">
 			<div class="hero-content">
-				<h1>Tenderloin</h1>
-				<div class="hero-text">
-					<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
-					<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
-					<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
-				</div>
+				<p>Hello. I'm Victor.</p>
+				<h1>Creative.<br>Marketeer.<br>Freelancer.</h1>
+				<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
+				<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
 			</div>
-		</div>
-		<div class="hero-bottom-cover">
-			<img src="assets/images/waves.svg">
 		</div>
 	</header>
 
