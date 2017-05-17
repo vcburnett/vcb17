@@ -49,43 +49,44 @@
 			<div class="hero-content">
 				<p>Hello. I'm Victor.</p>
 				<h1>Creative.<br>Marketeer.<br>Freelancer.</h1>
-				<a href="javascript:void(0);" class="cta-red">Venison pork chop</a>
-				<a href="javascript:void(0);" class="cta-blue">Chuck pig sausage</a>
+				<p class="header-txt-small">with laser eyes!</p>
+				<a href="javascript:void(0);" class="cta-red">Let's talk projects</a>
+				<a href="javascript:void(0);" class="cta-blue">View my portfolio</a>
 			</div>
 		</div>
 	</header>
 
 	<section id="things-i-do">
 		<div class="section-intro">
-			<p>Pork chop tongue rump pastrami, ham hock pig beef landjaeger shoulder fatback brisket sirloin capicola ribeye. Ground round pancetta pork loin prosciutto bresaola short loin picanha t-bone short ribs turkey sausage pork chop chicken kevin capicola. Turducken tenderloin ham shankle. Doner bacon rump ham brisket turkey venison burgdoggen shoulder corned beef porchetta.</p>
+			<p>Marketing efforts should not be independent from each other; they should complement and support each other. From strategic thinking to production, I feel comfortable in any environment. After years of working in with advertising, marketing, data analysis and freelancing, I developed multiple skills giving me global views of the projects I work on, increasing the success rate of the ventures I work with.</p>
 		</div>
 		<div class="main-services">
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Landjaeger</h2>
+				<h2>Branding</h2>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Short ribs</h2>
+				<h2>Design</h2>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Hamburger</h2>
+				<h2>Marketing</h2>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Shank picanha</h2>
+				<h2>Integration</h2>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 		</div>
@@ -147,7 +148,7 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>I love you</h3>
+							<h3>Client 1</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
@@ -162,7 +163,7 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>Leberkas Porchetta Hamburger</h3>
+							<h3>Client 2</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
@@ -177,7 +178,7 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>Leberkas Porchetta Hamburger</h3>
+							<h3>Client 3</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
@@ -192,7 +193,7 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>Leberkas Porchetta Hamburger</h3>
+							<h3>Client 4</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
@@ -207,7 +208,7 @@
 							<div class="slider-client-logo">
 								<img src="assets/images/temp/slider-client-logo.png" alt="Client">
 							</div>
-							<h3>Leberkas Porchetta Hamburger</h3>
+							<h3>Client 5</h3>
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
@@ -284,8 +285,8 @@
 				</svg>
 			</div>
 			<div class="about-thumb-content">
-				<h2>Short Ribs Bacon</h2>
-				<p>Tenderloin meatball shoulder</p>
+				<h2>Victor Burnett</h2>
+				<p>Creative. Artist. BBQ'er.</p>
 			</div>
 			<div class="about-image-wrap">
 				<div class="about-image" style="background-image: url('assets/images/temp/about-image.jpg');"></div>
@@ -293,13 +294,12 @@
 		</div>
 		<div class="about-content">
 			<div class="about-personal">
-				<h3>Corned beef shoulder</h3>
-				<p>Brisket bresaola burgdoggen jowl beef alcatra pork chop spare ribs t-bone meatball corned beef. Ham ground round doner sirloin jerky chuck. Drumstick pork cupim, jowl kielbasa pancetta short ribs alcatra. Ground round tail chicken hamburger tri-tip pork ham shank turducken fatback.</p>
-				<p>Bacon ipsum dolor amet shoulder ribeye tongue, short ribs landjaeger pancetta pork andouille doner frankfurter drumstick meatloaf. Ham hamburger picanha, kevin tenderloin pork belly bacon pig beef cow.</p>
+				<h3>On the lighter side</h3>
+				<p>Born in Brazil but now living in Canada, </p>
 				<a href="javasctip:void(0);" class="cta-blue">View my blog</a>
 			</div>
 			<div class="about-work">
-				<h3>Drumstick</h3>
+				<h3>Yeah, he's a pro</h3>
 				<p>Bacon ipsum dolor amet shoulder ribeye tongue, short ribs landjaeger pancetta pork andouille doner frankfurter drumstick meatloaf. Ham hamburger picanha, kevin tenderloin pork belly bacon pig beef cow.</p>
 				<p>Brisket bresaola burgdoggen jowl beef alcatra pork chop spare ribs t-bone meatball corned beef. Ham ground round doner sirloin jerky chuck. Drumstick pork cupim, jowl kielbasa pancetta short ribs alcatra. Ground round tail chicken hamburger tri-tip pork ham shank turducken fatback.</p>
 				<a href="javasctip:void(0);" class="cta-blue">Download CV</a>

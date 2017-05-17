@@ -258,7 +258,7 @@ header {
 	.hero-content {
 		width: 96%;
 		max-width: 1000px;
-		padding: 24vh 0 29vh;
+		padding: 22vh 0 27vh;
 		margin: 0 auto;
 		font-size: 1.5em;
 		font-weight: 200;
@@ -266,10 +266,17 @@ header {
 		color: #ccc;
 	}
 		.hero-content h1 {
+			color: #fff;
 			font-size: 3.5em;
 			line-height: .8em;
-			margin-bottom: .05em;
+			margin-bottom: .15em;
 			text-transform: uppercase;
+		}
+		.hero-content p.header-txt-small {
+			color: #999;
+			font-size: .65em;
+			line-height: 1.15em;
+			margin-bottom: 3em;
 		}
 			.hero-content a {
 				font-size: .85em;
@@ -448,6 +455,11 @@ header {
 							font-style: italic;
 							font-size: .85em;
 						}
+				#slider-wrap ul li a {
+					font-size: 1em;
+					line-height: 1.15em;
+					padding: .75em 1.25em .65em;
+				}
 	#slider-pagination {
 		width: 100%;
 		display: block;
