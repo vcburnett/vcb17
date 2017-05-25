@@ -66,6 +66,7 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Branding</h2>
+				<p></p>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
@@ -73,6 +74,7 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Design</h2>
+				<p></p>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
@@ -80,6 +82,7 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Marketing</h2>
+				<p></p>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
@@ -87,6 +90,7 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Integration</h2>
+				<p></p>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 		</div>
@@ -95,43 +99,25 @@
 				<div class="sec-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Prosciutto</h2>
+				<h2>Data Analysis</h2>
 			</div>
 			<div class="sec-service">
 				<div class="sec-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Beef ribs brisket</h2>
+				<h2>Photography</h2>
 			</div>
 			<div class="sec-service">
 				<div class="sec-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Meatloaf</h2>
+				<h2>Illustration</h2>
 			</div>
 			<div class="sec-service">
 				<div class="sec-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
-				<h2>Salami swine</h2>
-			</div>
-			<div class="sec-service">
-				<div class="sec-service-thumb">
-					<img src="assets/images/thumb.svg" alt="Thumb">
-				</div>
-				<h2>Salami swine</h2>
-			</div>
-			<div class="sec-service">
-				<div class="sec-service-thumb">
-					<img src="assets/images/thumb.svg" alt="Thumb">
-				</div>
-				<h2>Salami swine</h2>
-			</div>
-			<div class="sec-service">
-				<div class="sec-service-thumb">
-					<img src="assets/images/thumb.svg" alt="Thumb">
-				</div>
-				<h2>Salami swine</h2>
+				<h2>3D Modeling</h2>
 			</div>
 		</div>
 	</section>
@@ -218,11 +204,11 @@
 				</ul>
 			</div>
 			<div id="slider-pagination">
-				<a href="javascript:void(0);" class="pag-selected"></a>
-				<a href="javascript:void(0);"></a>
-				<a href="javascript:void(0);"></a>
-				<a href="javascript:void(0);"></a>
-				<a href="javascript:void(0);"></a>
+				<a href="javascript:void(0);" id="slider-btn-1" class="pag-selected"></a>
+				<a href="javascript:void(0);" id="slider-btn-2"></a>
+				<a href="javascript:void(0);" id="slider-btn-3"></a>
+				<a href="javascript:void(0);" id="slider-btn-4"></a>
+				<a href="javascript:void(0);" id="slider-btn-5"></a>
 			</div>
 		</div>
 		<div class="portfolio-button">
@@ -230,7 +216,7 @@
 		</div>
 		<div class="portfolio-clients">
 			<div class="portfolio-clients-intro">
-				<p>Landjaeger shoulder fatback brisket sirloin capicola ribeye. Ground round pancetta pork loin prosciutto bresaola short loin picanha t-bone short ribs turkey sausage pork chop chicken kevin capicola.</p>
+				<p>Here is a list of awesome clients I've had the pleasure of working with.</p>
 			</div>
 			<div class="portfolio-logos">
 				<div class="portfolio-clients-thumb">
@@ -359,6 +345,7 @@
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/js/classie.js"></script>
+	<script src="assets/js/scripts.js"></script>
 	<script>
 		(function() {
 			// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim

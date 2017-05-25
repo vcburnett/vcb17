@@ -171,7 +171,8 @@ h1, h2, h3 {
 nav {
 	width: 100%;
 	display: table;
-	position: absolute;
+	position: fixed;
+	top: 0;
 	z-index: 50;
 	-webkit-transition: .3s;
 	transition: .3s;
@@ -228,8 +229,6 @@ nav {
 	nav.scrolled {
 		background-color: rgba(255,255,255,.94);
 		box-shadow: 0 2px 4px rgba(0,0,0,.22);
-		position: fixed;
-		top: 0;
 	}
 		nav.scrolled #nav-logo {
 			max-width: 50px;
@@ -375,7 +374,7 @@ header {
 	}
 		.portfolio-clients-intro {
 			width: 75%;
-			margin: 0 auto 2em;
+			margin: 0 auto 1.15em;
 		}
 		.portfolio-logos {
 			width: 90%;
@@ -414,6 +413,8 @@ header {
 		#slider-wrap ul {
 			width: 500%;
 			display: table;
+			position: relative;
+			left: 0;
 		}
 			#slider-wrap ul li {
 				display: table;
@@ -874,6 +875,9 @@ footer {
 						opacity: 1;
 					}
 
+	.sec-service h2 {
+		font-size: 1em;
+	}
 
 }
 
@@ -890,6 +894,10 @@ footer {
 		clear: none;
 		padding: 0;
 		margin-bottom: 2em;
+	}
+
+	.sec-service h2 {
+		font-size: .9em;
 	}
 	
 }
@@ -936,6 +944,10 @@ footer {
 	.about-image-wrap {
 		width: 210px;
 		height: 210px;
+	}
+
+	.sec-service h2 {
+		font-size: .85em;
 	}
 }
 
