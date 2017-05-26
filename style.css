@@ -92,6 +92,7 @@ h1, h2, h3 {
 	font-family: "Bitter", serif;
 	font-weight: 400;
 	font-size: 1.25em;
+	text-align: center;
 	display: inline-block;
 	line-height: 1.15em;
 	color: #fff;
@@ -328,13 +329,14 @@ header {
 			}
 	.secondary-services {
 		width: 94%;
-		max-width: 640px;
+		max-width: 720px;
 		margin: 0 auto;
 		text-align: center;
 	}
 		.sec-service {
+			font-size: .9em;
 			display: inline-block;
-			width: 24%;
+			width: 19%;
 			padding: 0 2%;
 			margin-bottom: 1.5em;
 			vertical-align: top;
@@ -818,6 +820,10 @@ footer {
 }
 
 @media screen and (max-width: 680px) {
+	.hero-content h1 {
+		font-size: 2.5em;
+	}
+
 	.section-intro {
 		width: 96%;
 	}
@@ -876,15 +882,15 @@ footer {
 					}
 
 	.sec-service h2 {
-		font-size: 1em;
+		font-size: .85em;
 	}
 
 }
 
 @media screen and (max-width: 540px) {
 	.hero-content h1 {
-		font-size: 3.5em;
-		line-height: 1.15em;
+		font-size: 1.75em;
+		line-height: .9em;
 		margin-bottom: .25em;
 	}
 	.about-personal, .about-work {
@@ -896,8 +902,11 @@ footer {
 		margin-bottom: 2em;
 	}
 
+	.sec-service {
+		width: 32%;
+	}
 	.sec-service h2 {
-		font-size: .9em;
+		font-size: 1em;
 	}
 	
 }
@@ -935,6 +944,10 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+	.cta-red, .cta-blue {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
 	.about-thumb-content {
 		padding-top: 242px;
 	}
@@ -953,9 +966,9 @@ footer {
 
 @media screen and (max-width: 387px) {
 	.hero-content h1 {
-		font-size: 3em;
-		line-height: 1.15em;
-		margin-bottom: .05em;
+		font-size: 2em;
+		line-height: .9em;
+		margin-bottom: .25em;
 		text-transform: uppercase;
 	}
 	#slider-pagination a {

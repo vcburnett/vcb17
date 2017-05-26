@@ -25,6 +25,7 @@ $( document ).ready(function() {
 
 		//Slider
 		slideWidth = slide.width();
+		slideWrapper.css( "left", -1*((slideNumber-1) * slideWidth) +"px" );
 	}
 
 	// ON RESIZE
@@ -35,36 +36,50 @@ $( document ).ready(function() {
 	// Slider
 	function sliderBtn() {
 		$("#slider-pagination a.pag-selected").removeClass("pag-selected");
-		$(this).addClass("pag-selected");
 	};
+	
 	function sliderSlide() {
-
-		slideWrapper.css( "left", ((slideNumber-1) * slideWidth) +"px" );
-		console.log("slideWrapper = " + slideWrapper + " and slideWidth = " + slideWidth);
+		slideWrapper.fadeOut("fast", function () {
+			slideWrapper.css( "left", -1*((slideNumber-1) * slideWidth) +"px" );
+			slideWrapper.fadeIn("slow");
+		});
+		
+		console.log("Slide number = " + slideNumber + " Slide wrapper = " + slideWrapper + " and slideWidth = " + slideWidth);
 	}
+
 	btnSlider1.on("click", function() {
 		sliderBtn();
-		sliderNumber = 1;
+		$(this).addClass("pag-selected");
+		slideNumber = 1;
+		console.log("Slider number in button = " + slideNumber);
 		sliderSlide();
 	});
 	btnSlider2.on("click", function() {
 		sliderBtn();
-		sliderNumber = 2;
+		$(this).addClass("pag-selected");
+		slideNumber = 2;
+		console.log("Slider number in button = " + slideNumber);
 		sliderSlide();
 	});
 	btnSlider3.on("click", function() {
 		sliderBtn();
-		sliderNumber = 3;
+		$(this).addClass("pag-selected");
+		slideNumber = 3;
+		console.log("Slider number in button = " + slideNumber);
 		sliderSlide();
 	});
 	btnSlider4.on("click", function() {
 		sliderBtn();
-		sliderNumber = 4;
+		$(this).addClass("pag-selected");
+		slideNumber = 4;
+		console.log("Slider number in button = " + slideNumber);
 		sliderSlide();
 	});
 	btnSlider5.on("click", function() {
 		sliderBtn();
-		sliderNumber = 5;
+		$(this).addClass("pag-selected");
+		slideNumber = 5;
+		console.log("Slider number in button = " + slideNumber);
 		sliderSlide();
 	});
 

@@ -51,7 +51,7 @@
 				<h1>Creative.<br>Marketeer.<br>Freelancer.</h1>
 				<p class="header-txt-small">with laser eyes!</p>
 				<a href="javascript:void(0);" class="cta-red">Let's talk projects</a>
-				<a href="javascript:void(0);" class="cta-blue">View my portfolio</a>
+				<a href="portfolio.php" class="cta-blue">View my portfolio</a>
 			</div>
 		</div>
 	</header>
@@ -119,6 +119,12 @@
 				</div>
 				<h2>3D Modeling</h2>
 			</div>
+			<div class="sec-service">
+				<div class="sec-service-thumb">
+					<img src="assets/images/thumb.svg" alt="Thumb">
+				</div>
+				<h2>Consulting</h2>
+			</div>
 		</div>
 	</section>
 
@@ -138,7 +144,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -153,7 +159,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -168,7 +174,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -183,7 +189,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -198,7 +204,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="javascript:void(0);" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue">View the project</a>
 						</div>
 					</li>
 				</ul>
@@ -212,7 +218,7 @@
 			</div>
 		</div>
 		<div class="portfolio-button">
-			<a href="javascript:void(0);" class="cta-red">View all projects</a>
+			<a href="portfolio.php" class="cta-red">View all projects</a>
 		</div>
 		<div class="portfolio-clients">
 			<div class="portfolio-clients-intro">
@@ -281,21 +287,21 @@
 		<div class="about-content">
 			<div class="about-personal">
 				<h3>On the lighter side</h3>
-				<p>Born in Brazil but now living in Canada, </p>
-				<a href="javasctip:void(0);" class="cta-blue">View my blog</a>
+				<p>Football, BBQ, video games &amp; art. Those are amongst the things you'll probably find me doing on my free time.</p>
+				<a href="http://oddity.vcburnett.com/" class="cta-blue" target="_blank">View my blog</a>
 			</div>
 			<div class="about-work">
 				<h3>Yeah, he's a pro</h3>
-				<p>Bacon ipsum dolor amet shoulder ribeye tongue, short ribs landjaeger pancetta pork andouille doner frankfurter drumstick meatloaf. Ham hamburger picanha, kevin tenderloin pork belly bacon pig beef cow.</p>
-				<p>Brisket bresaola burgdoggen jowl beef alcatra pork chop spare ribs t-bone meatball corned beef. Ham ground round doner sirloin jerky chuck. Drumstick pork cupim, jowl kielbasa pancetta short ribs alcatra. Ground round tail chicken hamburger tri-tip pork ham shank turducken fatback.</p>
-				<a href="javasctip:void(0);" class="cta-blue">Download CV</a>
+				<p>Graduated in Advertising &amp; Marketing in Brazil, I focused my career on art direction.</p>
+				<a href="assets/pdf/victor-burnett-CV.pdf" class="cta-blue">Download CV</a>
 			</div>
 		</div>
 	</section>
 
 	<section id="contact">
 		<div class="section-intro">
-			<p>Cupim porchetta capicola pastrami pork chop kevin pancetta tail shankle swine tri-tip ribeye. Tail jerky landjaeger meatloaf, sausage shank hamburger beef kielbasa jowl swine strip steak ham hock. Landjaeger prosciutto leberkas pork loin.</p>
+			<p>Life - and usually deadlines - are too short to waste not taking action! Send me a message and we'll discuss awesome endeavours to embark on together.</p>
+			<p>Or just say hello. That's cool too!</p>
 		</div>
 		<div class="form">
 			<form>
@@ -321,7 +327,7 @@
 			</form>
 		</div>
 		<div class="form-footnote">
-			<p>Cow bresaola tenderloin filet mignon jowl swine corned beef sirloin pork chop burgdoggen cupim ground round. Hamburger meatball tongue flank sirloin swine meatloaf short loin boudin bresaola.</p>
+			<p>All information send to me will never be shared with anyone else. It'll only be used to contact you in reply to your message.</p>
 		</div>
 	</section>
 
