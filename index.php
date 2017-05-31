@@ -66,23 +66,21 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Branding</h2>
-				<p></p>
-				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+				<p>One of my specialties, your brand is your most important asset. Let's work together in creating a memorable, beautiful and recognizable brand.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Design</h2>
-				<p></p>
-				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
+				<p>Whether digital or traditional, I have years of experience in designing user experiences and digital designs. I am also proficient in traditional drawing.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Marketing</h2>
-				<p></p>
+				<p>I graduated in Communications: Advertising &amp; Marketing and marketing strategy.</p>
 				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
