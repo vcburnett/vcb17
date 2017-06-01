@@ -66,30 +66,24 @@
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Branding</h2>
-				<p>One of my specialties, your brand is your most important asset. Let's work together in creating a memorable, beautiful and recognizable brand.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Design</h2>
-				<p>Whether digital or traditional, I have years of experience in designing user experiences and digital designs. I am also proficient in traditional drawing.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Marketing</h2>
-				<p>I graduated in Communications: Advertising &amp; Marketing and marketing strategy.</p>
-				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Integration</h2>
-				<p></p>
-				<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 			</div>
 		</div>
 		<div class="secondary-services">
@@ -123,6 +117,9 @@
 				</div>
 				<h2>Consulting</h2>
 			</div>
+		</div>
+		<div class="cta-services">
+			<a href="javascript:void(0);" class="cta-red">LEt's work together</a>
 		</div>
 	</section>
 
@@ -216,7 +213,7 @@
 			</div>
 		</div>
 		<div class="portfolio-button">
-			<a href="portfolio.php" class="cta-red">View all projects</a>
+			<a href="portfolio.php" class="cta-blue">View all projects</a>
 		</div>
 		<div class="portfolio-clients">
 			<div class="portfolio-clients-intro">
@@ -285,12 +282,12 @@
 		<div class="about-content">
 			<div class="about-personal">
 				<h3>On the lighter side</h3>
-				<p>Football, BBQ, video games &amp; art. Those are amongst the things you'll probably find me doing on my free time.</p>
+				<p>Travelling, BBQ, art &amp; video games. Those are amongst the things you'll probably find me doing on my free time. I also paricipate in multiple projects with some friends, varying from cooking for Joe's Fusion, (tele-)playing music with friends in Brazil or just spending a lazy Sunday all sorts of games.</p>
 				<a href="http://oddity.vcburnett.com/" class="cta-blue" target="_blank">View my blog</a>
 			</div>
 			<div class="about-work">
 				<h3>Yeah, he's a pro</h3>
-				<p>Graduated in Advertising &amp; Marketing in Brazil, I focused my career on art direction.</p>
+				<p>Graduated in Advertising &amp; Marketing in Brazil, I focused my career on art direction. I've worked both for ad agencies as well as for in-house marketing departments, giving me the opportunity to learn a lot about marketing from both sides. This allows me to confidently work as a freelancer as a strategist, product developer or even as a consultant.</p>
 				<a href="assets/pdf/victor-burnett-CV.pdf" class="cta-blue">Download CV</a>
 			</div>
 		</div>
@@ -298,7 +295,7 @@
 
 	<section id="contact">
 		<div class="section-intro">
-			<p>Life - and usually deadlines - are too short to waste not taking action! Send me a message and we'll discuss awesome endeavours to embark on together.</p>
+			<p>Life - and usually deadlines - are too short to waste not taking action! Send me a message and we'll discuss awesome projects to embark on together.</p>
 			<p>Or just say hello. That's cool too!</p>
 		</div>
 		<div class="form">
