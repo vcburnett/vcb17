@@ -4,6 +4,13 @@ $( document ).ready(function() {
 	var browserWindow = $(window);
 
 	var siteNav = $("nav");
+	var btnMobNav = $(".mobile-button");
+	var navLinks = $("#nav-links");
+	var navLinksA = $("#nav-links a");
+	var navLogo1 = $("#nav-logo a .vcb-logo-part-1");
+	var navLogo2 = $("#nav-logo a .vcb-logo-part-2");
+	var navLogo3 = $("#nav-logo a .vcb-logo-part-3");
+	var navScrollFix = $("nav.scrolled #nav-links")
 
 	var sliderPagination = $("#slider-pagination");
 	var btnSlider = $("#slider-pagination a");
@@ -23,9 +30,25 @@ $( document ).ready(function() {
 		browserH = browserWindow.height();
 		browserW = browserWindow.width();
 
+		// nav
+		if (btnMobNav.hasClass("clicked") && browserW > 640) {
+			closeOpenNav();
+		};
 		//Slider
 		slideWidth = slide.width();
 		slideWrapper.css( "left", -1*((slideNumber-1) * slideWidth) +"px" );
+	}
+
+	function closeOpenNav() {
+		btnMobNav.removeClass("clicked");
+		siteNav.css("background-color", "transparent");
+		navLinks.css({
+			"height":"0vh",
+			"padding-top":"2.1em"
+		});
+		navLogo1.css("fill", "#ebebeb");
+		navLogo2.css("fill", "#aaa");
+		navLogo3.css("fill", "#fff");
 	}
 
 	// ON RESIZE
@@ -98,5 +121,48 @@ $( document ).ready(function() {
 	    }
 
 	});
+
+	// ON CLICK
+	btnMobNav.on("click", function() {
+		if ( $(this).hasClass("clicked") ) {
+			$(this).removeClass("clicked");
+			siteNav.css("background-color", "transparent");
+			navLinks.css({
+				"height":"0vh",
+				"padding-top":"0"
+			});
+			navLogo1.css("fill", "#ebebeb");
+			navLogo2.css("fill", "#aaa");
+			navLogo3.css("fill", "#fff");
+		} else {
+			$(this).addClass("clicked");
+			siteNav.css("background-color", "rgba(255,255,255,.94)");
+			navLinks.css({
+				"height":"100vh",
+				"padding-top":"1.5em"
+			});
+			navLogo1.css("fill", "#414c61");
+			navLogo2.css("fill", "#2e323b");
+			navLogo3.css("fill", "#66728a");
+		}
+	});
+
+	navLinksA.on("click", function() {
+		if( btnMobNav.hasClass("clicked") ) {
+			closeOpenNav();
+		}
+	});
+
+	$('a[href^="#"]').click(function(event){
+		event.preventDefault();
+		
+		var the_id = $(this).attr("href");
+
+		$('html, body').animate({
+			scrollTop:$(the_id).offset().top
+		}, 'slow');
+		return false;
+	});
+
 
 });

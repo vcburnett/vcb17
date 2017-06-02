@@ -33,12 +33,17 @@
 					</svg>
 				</a>
 			</div>
+			<a class="mobile-button">
+				<div class="mb-1"></div>
+				<div class="mb-2"></div>
+				<div class="mb-3"></div>
+			</a>
 			<div id="nav-links">
 				<ul>
-					<li><a href="javascript:void(0);">Things I Do</a></li>
-					<li><a href="javascript:void(0);">Portfolio</a></li>
-					<li><a href="javascript:void(0);">About Me</a></li>
-					<li><a href="javascript:void(0);">Say Hello</a></li>
+					<li><a href="#things-i-do">Things I Do</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
+					<li><a href="#about-me">About Me</a></li>
+					<li><a href="#contact">Say Hello</a></li>
 				</ul>
 			</div>
 		</div>
@@ -65,25 +70,29 @@
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
+				<h2>Marketing</h2>
+				<p>Marketing strategy and consulting</p>
+			</div>
+			<div class="a-service">
+				<div class="a-service-thumb">
+					<img src="assets/images/thumb.svg" alt="Thumb">
+				</div>
 				<h2>Branding</h2>
+				<p>Conception and development</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Design</h2>
-			</div>
-			<div class="a-service">
-				<div class="a-service-thumb">
-					<img src="assets/images/thumb.svg" alt="Thumb">
-				</div>
-				<h2>Marketing</h2>
+				<p>UX &amp; UI design, Illustration</p>
 			</div>
 			<div class="a-service">
 				<div class="a-service-thumb">
 					<img src="assets/images/thumb.svg" alt="Thumb">
 				</div>
 				<h2>Integration</h2>
+				<p>HTML, CSS, javascript, Wordpress</p>
 			</div>
 		</div>
 		<div class="secondary-services">
@@ -139,7 +148,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="case-study.php" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue-border">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -154,7 +163,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="case-study.php" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue-border">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -169,7 +178,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="case-study.php" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue-border">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -184,7 +193,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="case-study.php" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue-border">View the project</a>
 						</div>
 					</li>
 					<li>
@@ -199,7 +208,7 @@
 							<p>Beef meatball boudin ball tip capicola cupim biltong andouille pork. Prosciutto leberkas kielbasa, pastrami sirloin shank andouille flank ground round jerky filet mignon hamburger bresaola.</p>
 							<p class="slider-txt-role">In the role of</p>
 							<h4>Art Director <span class="txt-role-at">at</span> Konversion</h4>
-							<a href="case-study.php" class="cta-blue">View the project</a>
+							<a href="case-study.php" class="cta-blue-border">View the project</a>
 						</div>
 					</li>
 				</ul>

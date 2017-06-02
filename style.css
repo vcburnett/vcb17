@@ -88,7 +88,7 @@ h1, h2, h3 {
 	/*color: #897155;*/
 }
 
-.cta-red, .cta-blue {
+.cta-red, .cta-blue, .cta-blue-border {
 	font-family: "Bitter", serif;
 	font-weight: 400;
 	font-size: 1.25em;
@@ -120,6 +120,14 @@ h1, h2, h3 {
 	background-color: #2c627a;
 	text-shadow: 0 1px 2px rgba(25,52,64,.24);
 }
+.cta-blue-border {
+	background-color: transparent;
+	color: #777;
+	border: 1px solid #aaa;
+	text-shadow: none;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
 	.cta-red:before, .cta-blue:before {
 		content: "";
 		position: absolute;
@@ -150,6 +158,11 @@ h1, h2, h3 {
 	.cta-red:hover:before, .cta-blue:hover:before {
 		-webkit-transform: scale(2);
 		transform: scale(2);
+	}
+	.cta-blue-border:hover {
+		background-color: rgba(44, 98, 122, .04);
+		color: #2c627a;
+		border-color: #2c627a;
 	}
 
 .vcb-logo-part-1 {
@@ -205,7 +218,7 @@ nav {
 				transition: .3s;
 			}
 		#nav-links {
-			padding-top: 2.1em;
+			padding-top: 2.1em !important;
 			float: right;
 			-webkit-transition: .3s;
 			transition: .3s;
@@ -226,25 +239,29 @@ nav {
 					color: #fff;
 				}
 
+		.mobile-button {
+			display: none;
+		}
+
 	/* nav scrolled */
 	nav.scrolled {
-		background-color: rgba(255,255,255,.94);
+		background-color: rgba(255,255,255,.94) !important;
 		box-shadow: 0 2px 4px rgba(0,0,0,.22);
 	}
 		nav.scrolled #nav-logo {
 			max-width: 50px;
 		}
 			nav.scrolled #nav-logo a .vcb-logo-part-1 {
-				fill: #414c61;
+				fill: #414c61 !important;
 			}
 			nav.scrolled #nav-logo a .vcb-logo-part-2 {
-				fill: #2e323b;
+				fill: #2e323b !important;
 			}
 			nav.scrolled #nav-logo a .vcb-logo-part-3 {
-				fill: #66728a;
+				fill: #66728a !important;
 			}
 		nav.scrolled #nav-links {
-			padding-top: 1.25em;
+			padding-top: 1.25em !important;
 			float: right;
 		}
 
@@ -349,6 +366,10 @@ header {
 	.a-service h2 {
 		font-size: 1.25em;
 		margin-bottom: .25em;
+	}
+	.a-service p {
+		color: #999;
+		font-size: .85em;
 	}
 	.sec-service h2 {
 		font-size: 1.1em;
@@ -893,6 +914,101 @@ footer {
 
 }
 
+@media screen and (max-width: 640px) {
+	nav {
+	}
+		.nav-wrap {
+		}
+			#nav-links {
+				height: 0vh;
+				width: 100%;
+				overflow: hidden;
+				padding-top: 0em;
+			}
+				#nav-links ul {
+					padding-top: 1.5em;
+					width: 100%;
+				}
+					#nav-links ul li {
+						display: block;
+						text-align: center;
+						padding: 1.5em 0;
+					}
+				#nav-links a {
+					font-size: 2.5em;
+					line-height: 1em;
+					font-weight: 200;
+					color: #333;
+				}
+
+			.mobile-button {
+				display: block;
+				position: relative;
+				width: 40px;
+				height: 40px;
+				float: right;
+				margin-top: 12px;
+			}
+				.mobile-button .mb-1, .mobile-button .mb-2, .mobile-button .mb-3 {
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 5px;
+					border-radius: 3px;
+					background-color: #888;
+					-webkit-transition: .3s;
+					transition: .3s;
+				}
+					.mobile-button:active .mb-1, .mobile-button:active .mb-2, .mobile-button:active .mb-3 {
+						background-color: #fff;
+					}
+					.mobile-button .mb-1 {
+						top: 5px;
+					}
+					.mobile-button .mb-2 {
+						top: 18px;
+						opacity: 1;
+					}
+					.mobile-button .mb-3 {
+						top: 31px;
+					}
+
+			.mobile-button.clicked {
+
+			}
+				.mobile-button.clicked .mb-1 {
+					width: 54px;
+					height: 3px;
+					-ms-transform: rotate(45deg); /* IE 9 */
+					-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+					transform: rotate(45deg);
+					top: 17px;
+					left: -7px;
+				}
+				.mobile-button.clicked .mb-2 {
+					opacity: 0;
+				}
+				.mobile-button.clicked .mb-3 {
+					width: 54px;
+					height: 3px;
+					-ms-transform: rotate(-45deg); /* IE 9 */
+					-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+					transform: rotate(-45deg);
+					top: 17px;
+					left: -7px;
+				}
+
+			nav.scrolled .mobile-button {
+				margin-top: 8px;
+			}
+				nav.scrolled .mobile-button:active .mb-1, nav.scrolled .mobile-button:active .mb-2, nav.scrolled .mobile-button:active .mb-3 {
+					background-color: #333;
+				}
+				nav.scrolled #nav-links {
+					padding-top: 0;
+				}
+}
+
 @media screen and (max-width: 540px) {
 	.hero-content h1 {
 		font-size: 1.75em;
@@ -913,6 +1029,11 @@ footer {
 	}
 	.sec-service h2 {
 		font-size: 1em;
+	}
+
+	.portfolio-clients-thumb {
+		width: 18%;
+		margin: .5%;
 	}
 	
 }
@@ -967,6 +1088,11 @@ footer {
 
 	.sec-service h2 {
 		font-size: .85em;
+	}
+
+	.portfolio-clients-thumb {
+		width: 31%;
+		margin: .5%;
 	}
 }
 
