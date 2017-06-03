@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
-	<!--<script src="//cdn.optimizely.com/js/{% code %}.js"></script>-->
 	<!-- Page metas -->
 	<!-- Social metas -->
 
@@ -12,6 +11,7 @@
 	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
 
 	<!-- stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- stylesheets -->
 
