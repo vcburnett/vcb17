@@ -23,7 +23,9 @@ $( document ).ready(function() {
 	var btnSlider4 = $("#slider-btn-4");
 	var btnSlider5 = $("#slider-btn-5");
 
-	var browserH, browserW, slideWidth;
+	var project = $(".a-project");
+
+	var browserH, browserW, slideWidth, projectW;
 
 	// Functions
 	function updateElements() {
@@ -34,9 +36,13 @@ $( document ).ready(function() {
 		if (btnMobNav.hasClass("clicked") && browserW > 640) {
 			closeOpenNav();
 		};
-		//Slider
+		// Slider
 		slideWidth = slide.width();
 		slideWrapper.css( "left", -1*((slideNumber-1) * slideWidth) +"px" );
+
+		// Portfolio page
+		projectW = project.width();
+		project.css("height", projectW);
 	}
 
 	function closeOpenNav() {

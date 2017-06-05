@@ -49,10 +49,63 @@
 		</div>
 	</nav>
 
-	<header id="header-portfolio" style="background-image:url('assets/images/temp/hero-image.jpg');"></header>
+	<header id="header-internal-page" style="background-image:url('assets/images/temp/internal-hero-image.jpg');"></header>
 
 	<div class="content-wrapper">
-
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
+		<a href="case-study.php" class="a-project" style="background-image:url('assets/images/temp/portfolio-image.jpg');">
+			<div class="project-content">
+				<h1>Name of Client</h1>
+				<div class="project-content-text">
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p class="p-cta">View project</p>
+				</div>
+			</div>
+		</a>
 	</div>
 
 	<section id="contact">
