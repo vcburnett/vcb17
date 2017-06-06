@@ -49,7 +49,33 @@
 		</div>
 	</nav>
 
-	<header id="header-portfolio" style="background-image:url('assets/images/temp/hero-image.jpg');"></header>
+	<header id="header-case-study">
+		<div class="cs-info-1">
+			<p>2017</p>
+			<p><span class="txt-client-name">Client Name</span> Bacon frankfurter pork pork chop. Andouille boudin frankfurter, tongue shoulder pork loin drumstick bacon landjaeger. Ground round rump chicken brisket meatloaf cow bacon alcatra sirloin venison. Short loin pancetta rump filet mignon capicola burgdoggen strip steak ribeye chuck.</p>
+		</div>
+		<div class="cs-info-2">
+			<div class="cs-info-left">
+				<p>Services</p>
+			</div>
+			<div class="cs-info-right">
+				<p>Branding</p>
+				<p>UI Design</p>
+				<p>UX Design</p>
+			</div>
+		</div>
+		<div class="cs-info-3">
+			<div class="cs-info-left">
+				<p>The project</p>
+			</div>
+			<div class="cs-info-right">
+				<p>Photoshop</p>
+				<p>Illustrator</p>
+				<p>Axure</p>
+				<p>Sublime Text</p>
+			</div>
+		</div>
+	</header>
 
 	<div class="content-wrapper">
 
