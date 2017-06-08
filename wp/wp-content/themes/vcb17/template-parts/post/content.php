@@ -1,8 +1,8 @@
 <div class="content-top">
 	<div class="cs-info-1">
 		<a onclick="window.history.back()" class="btn-back-mob">Back</a>
-		<p class="year">2017</p>
-		<p><span class="txt-client-name">Client Name</span> Bacon frankfurter pork pork chop. Andouille boudin frankfurter, tongue shoulder pork loin drumstick bacon landjaeger. Ground round rump chicken brisket meatloaf cow bacon alcatra sirloin venison. Short loin pancetta rump filet mignon capicola burgdoggen strip steak ribeye chuck.</p>
+		<p class="year"><?php the_field('project_year') ?></p>
+		<p><span class="txt-client-name"><?php the_field('client_name') ?></span> <?php the_field('project_description') ?></p>
 		<a onclick="window.history.back()" class="btn-back-desk">Back</a>
 	</div>
 	<div class="cs-info-2">
@@ -11,9 +11,16 @@
 				<p>Services</p>
 			</div>
 			<div class="cs-info-int-right">
-				<p>Branding</p>
-				<p>UI Design</p>
-				<p>UX Design</p>
+				<?php
+					// vars	
+					$services = get_field('project_services');
+
+					// check
+					if( $services ): ?>
+						<?php foreach( $services as $service ): ?>
+							<p><?php echo $service; ?></p>
+						<?php endforeach; ?>
+				<?php endif; ?>
 			</div>
 		</div>
 		<div class="cs-info-right">
@@ -21,32 +28,32 @@
 				<p>Tools</p>
 			</div>
 			<div class="cs-info-int-right">
-				<p>Photoshop</p>
-				<p>Illustrator</p>
-				<p>Axure</p>
-				<p>Sublime Text</p>
+				<?php
+					// vars	
+					$tools = get_field('project_tools');
+
+					// check
+					if( $tools ): ?>
+						<?php foreach( $tools as $tool ): ?>
+							<p><?php echo $tool; ?></p>
+						<?php endforeach; ?>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="post-content">
-	<div class="post-image">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp/image-example.jpg" alt="alt of image">
-	</div>
-	<div class="post-text">
-		<p>Filet mignon kielbasa kevin, t-bone beef ribs ball tip salami tongue. Strip steak swine pastrami tongue. Turkey cupim ribeye t-bone turducken pancetta biltong ham hock pork belly leberkas capicola pig beef ribs tenderloin shoulder.</p>
-	</div>
-	<div class="post-image">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp/image-example.jpg" alt="alt of image">
-	</div>
-	<div class="post-image">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp/image-example.jpg" alt="alt of image">
-	</div>
+	<?php the_content(); ?>
 </div>
 
 <div class="end-icon">
 	<div class="end-icon-wrap">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp/end-icon.png" alt="Name of Client">
+		<?php 
+		$image = get_field('end_of_post_image');
+
+		if( !empty($image) ): ?>
+			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+		<?php endif; ?>
 	</div>
 </div>

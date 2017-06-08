@@ -729,6 +729,8 @@ header {
 	background: -o-linear-gradient(-5deg, #6eb1dc, #145a71); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(-5deg, #6eb1dc, #145a71); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(-5deg, #6eb1dc, #145a71); /* Standard syntax */
+	background-size: cover;
+	background-position: center center;
 }
 	.cs-info-1, .cs-info-2 {
 		width: 47%;
@@ -1029,6 +1031,17 @@ header#header-error {
 				line-height: 1.15em;
 				margin-bottom: .4em;
 			}
+			.error-content a.btn-contact-404 {
+				color: #fff;
+				border: 1px solid #ddd;
+				padding: .75em 1.5em;
+				display: inline-block;
+				margin-top: 2em;
+			}
+				.error-content a.btn-contact-404:hover {
+					color: #2c627a;
+					background-color: #fff;
+				}
 
 /* Footer */
 footer {

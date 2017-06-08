@@ -1,4 +1,12 @@
-<a href="<?php echo get_permalink(); ?>" class="a-project" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/temp/portfolio-image.jpg');">
+<?php 
+
+$image = get_field('portfolio_page_thumb');
+
+if( !empty($image) ): ?>
+
+<a href="<?php echo get_permalink(); ?>" class="a-project" style="background-image:url('<?php echo $image['url']; ?>');">
+
+<?php endif; ?>
 	<div class="project-content">
 		<h1><?php echo get_the_title(); ?></h1>
 		<div class="project-content-text">
